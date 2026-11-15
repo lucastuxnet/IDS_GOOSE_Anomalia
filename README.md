@@ -87,13 +87,6 @@ A execução completa (os dois algoritmos e a fusão) leva cerca de 2,5 minutos 
 | 11 | IDS híbrido: regras LLM, seleção pelo treino, fusões |
 | 12 | Exportação de CSVs, figuras e metadados |
 
-## Artigos (Overleaf)
-
-Cada pasta em `artigos/` é um projeto LaTeX completo: `main.tex`, `referencias.bib`, `arquitetura.tex` (TikZ), `figuras/`, `sbc-template.sty` e `sbc.bst`. Para usar no Overleaf, faça o upload da pasta como `.zip`: **New Project → Upload Project**.
-
-> **Atenção ao estilo:** o `sbc-template.sty` e o `sbc.bst` incluídos são versões **compatíveis**, feitas para compilação local. Antes de submeter, substitua-os pelos arquivos oficiais do modelo *SBC Conferences Template* (Overleaf/site da SBC). Nenhum comando do `main.tex` precisa mudar. A contagem de páginas (8 e 20) foi conferida com o estilo compatível; confira de novo depois da troca.
-
-Os e-mails dos coautores no `main.tex` estão marcados com `[CONFIRMAR]`.
 
 ## Reprodutibilidade e limitações
 
