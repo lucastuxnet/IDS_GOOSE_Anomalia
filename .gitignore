@@ -1,0 +1,17 @@
+# O CSV do ERENO tem ~125 MB (acima do limite de 100 MB do GitHub).
+# Versione apenas dataset/ERENO-2.0-100K.zip; o notebook lê o .zip diretamente.
+dataset/*.csv
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+
+# Artefatos de compilação LaTeX
+artigos/**/*.aux
+artigos/**/*.bbl
+artigos/**/*.blg
+artigos/**/*.log
+artigos/**/*.out
+artigos/**/*.toc
+artigos/**/*.synctex.gz

@@ -1,0 +1,17 @@
+modelo,falha,ataque,total,detectado
+MLP,F1 · Sem autenticação de origem (falsificação do publicador),masquerade_fake_fault,6000,6000
+MLP,F1 · Sem autenticação de origem (falsificação do publicador),masquerade_fake_normal,6000,5972
+MLP,F2 · Sem integridade da mensagem (injeção de quadros forjados),injection,6000,5999
+MLP,F3 · Sem proteção anti-replay (reenvio de quadros capturados),inverse_replay,6000,5979
+MLP,F3 · Sem proteção anti-replay (reenvio de quadros capturados),random_replay,6000,4661
+MLP,"F4 · Sem validação de stNum/sqNum e de taxa (envenenamento, DoS)",high_StNum,6000,5999
+MLP,"F4 · Sem validação de stNum/sqNum e de taxa (envenenamento, DoS)",poisoned_high_rate,6000,6000
+MLP,F5 · Sem garantia de entrega (descarte seletivo — grayhole),grayhole,6000,4283
+RF,F1 · Sem autenticação de origem (falsificação do publicador),masquerade_fake_fault,6000,6000
+RF,F1 · Sem autenticação de origem (falsificação do publicador),masquerade_fake_normal,6000,5998
+RF,F2 · Sem integridade da mensagem (injeção de quadros forjados),injection,6000,5999
+RF,F3 · Sem proteção anti-replay (reenvio de quadros capturados),inverse_replay,6000,5998
+RF,F3 · Sem proteção anti-replay (reenvio de quadros capturados),random_replay,6000,5296
+RF,"F4 · Sem validação de stNum/sqNum e de taxa (envenenamento, DoS)",high_StNum,6000,6000
+RF,"F4 · Sem validação de stNum/sqNum e de taxa (envenenamento, DoS)",poisoned_high_rate,6000,6000
+RF,F5 · Sem garantia de entrega (descarte seletivo — grayhole),grayhole,6000,3805
